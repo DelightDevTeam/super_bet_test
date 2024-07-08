@@ -1,0 +1,4 @@
+php artisan config:publish --all
+
+INSERT INTO settings (`group`, `name`, `payload`, `created_at`, `updated_at`) VALUES ('app', 'provider_initial_balance', '436459', NOW(), NOW());
+
